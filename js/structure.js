@@ -1,1 +1,2 @@
-victim(3);
+// en parametre un nombre de victime demander par les prompte
+victim();

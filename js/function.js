@@ -5,6 +5,6 @@ function victim(num){
         vic = prompt("");
         elem.push(vic);
     }
-    // var rendom = Math.floor(Math.rendom * elem.length)
-    console.log(elem.length);
+    var rendom = Math.floor(Math.random()*num);
+    document.write("<p>"+"la victime et : "+elem[rendom]+ "</p>");
 }
